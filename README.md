@@ -24,13 +24,8 @@ Each platform’s instructions are stored in separate documentation files for cl
 ```plaintext
 .
 ├── deployment_guides/
-│   ├── railway.md         # Railway deployment instructions
-│   ├── heroku.md          # Heroku deployment instructions
-│   ├── render.md          # Render deployment instructions
-│   ├── vercel.md          # Vercel deployment instructions
-│   └── pythonanywhere.md  # PythonAnywhere deployment instructions
-├── conf/                  # Django project settings
-├── requirements.txt
-├── Procfile
-├── runtime.txt
-└── README.md
+│   ├── railway/railway.md                 # Railway deployment instructions
+│   ├── heroku/ heroku.md                  # Heroku deployment instructions
+│   ├── render/ render.md                  # Render deployment instructions
+│   ├── vercel/ vercel.md                  # Vercel deployment instructions
+│   └── pythonanywhere/ pythonanywhere.md  # PythonAnywhere deployment instructions
